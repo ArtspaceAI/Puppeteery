@@ -13,4 +13,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC"
+},{
+  "scripts": {
+  "build": "webpack --config webpack.conf.js"
 }
+
