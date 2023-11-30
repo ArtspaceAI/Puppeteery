@@ -39,7 +39,7 @@ app.get('/', async (req, res) => {
 });
 
 async function runScript(url, inputPrompt) {
-    const browser = await puppeteer.launch({ headless: false });
+    const browser = await puppeteer.launch({ headless: new });
     const page = await browser.newPage();
 
     // Your existing script code here
